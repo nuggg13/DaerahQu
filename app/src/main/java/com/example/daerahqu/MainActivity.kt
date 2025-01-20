@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         val quizzes = listOf(
             Quiz(
                 name = "Kuis Pengetahuan Sriwijaya",
-                description = "Berisi soal soal mengenai sejarah sriwijaya",
+                description = "Berisi soal soal mengenai sejarah kerajaan sriwijaya",
                 questions = listOf(
                     Question("apa itu kerajaan sriwijaya ?", listOf("pemerintahan", "pedesaan", "Kedatuan histori dari sumatra", "klub bola"), 2),
                     Question("kerajaan sriwijaya merupakan kerajaan terbesar dalam bidang?", listOf("maritim", "pertanian", "armada perang", "luas wilayah"), 0),
@@ -32,13 +32,38 @@ class MainActivity : AppCompatActivity() {
                 )
             ),
             Quiz(
-                name = "Judul",
-                description = "deskripsi",
+                name = "Kuis Pengetahuan Majapahit",
+                description = "Berisi soal soal mengenai sejarah Kerajaan majapahit",
                 questions = listOf(
-                    Question("What planet is closest to the sun?", listOf("Mars", "Venus", "Mercury", "Earth"), 2),
-                    Question("What is the chemical symbol for water?", listOf("H2O", "O2", "CO2", "HO"), 0)
+                    Question("Siapakah raja pertama Kerajaan Majapahit?", listOf("Hayam Wuruk", "Raden Wijaya", "Gajah Mada", "Tribhuwana Tunggadewi"), 1),
+                    Question("Sumpah Palapa, yang terkenal dalam sejarah Majapahit, diucapkan oleh?", listOf("Gajah Mada", "Hayam Wuruk", "Adityawarman", "Kertanegara"), 0),
+                    Question("Kitab Negarakertagama yang menggambarkan kejayaan Majapahit, ditulis oleh siapa?", listOf("Mpu Gandring", "Mpu Prapanca", "Mpu Sedah", "Mpu Tantular"), 1),
+                    Question("Apa nama pelabuhan penting Kerajaan Majapahit yang menjadi pusat perdagangan internasional?", listOf("Sunda Kelapa", "Tanjung Perak", "Tuban", "Gresik"), 2),
+                    Question("Faktor utama yang menyebabkan runtuhnya Kerajaan Majapahit adalah...?", listOf("Penyerangan oleh kerajaan asing", "Perang saudara (Perang Paregreg)", "Letusan gunung berapi", "pandemi penyakit"), 1),
                 )
-            )
+            ),
+            Quiz(
+                name = "Kuis Pengetahuan Aceh",
+                description = "Berisi soal soal mengenai sejarah kerajaan aceh",
+                questions = listOf(
+                    Question("Siapakah sultan pertama Kerajaan Aceh yang membawa kerajaan ini menjadi kekuatan besar di Asia Tenggara?", listOf("Sultan Iskandar Muda", "Sultan Ali Mughayat Syah", "Sultan Iskandar Thani", "Sultan Alauddin Riayat Syah"), 1),
+                    Question("Pada masa pemerintahan siapa Kerajaan Aceh mencapai puncak kejayaannya?", listOf("Sultan Iskandar Thani", "Sultan Alauddin Riayat Syah", "Sultan Iskandar Muda", "Sultan Zainal Abidin"), 2),
+                    Question("Apa nama undang-undang yang digunakan Sultan Iskandar Muda untuk mengatur pemerintahan Kerajaan Aceh?", listOf("Qanun Aceh", "Adat Aceh", "Hikayat Aceh", "Suluh Aceh"), 0),
+                    Question("Siapakah pendiri Kerajaan Aceh?", listOf("Sultan Iskandar Muda", "Sultan Ali Mughayat Syah", "Sultan Iskandar Thani", "Sultan Alauddin Riayat Syah"), 1),
+                    Question("tahun berdirinya kesulitanan aceh", listOf("1493", "1494", "1495", "1496"), 3),
+                )
+            ),
+            Quiz(
+                name = "Kuis Pengetahuan Mataram Islam",
+                description = "Berisi soal soal mengenai sejarah kerajaan mataram islam",
+                questions = listOf(
+                    Question("Kerajaan Mataram Islam mencapai puncak kejayaan pada masa pemerintahan raja", listOf("Sultan Agung", "Panembahan Senapati", "Amangkurat I", "Raden Patah"), 0),
+                    Question("Kerajaan Mataram Islam berpusat di daerah", listOf("Banten", "Surakarta", "Yogyakarta", "Kotagede"), 3),
+                    Question("Salah satu strategi Sultan Agung untuk melawan VOC adalah", listOf("Melakukan perang gerilya", "Menjalin persekutuan dengan kerajaan di Maluku", "Menyerang Batavia pada tahun 1628 dan 1629", "Memindahkan ibu kota kerajaan"), 2),
+                    Question("Perjanjian Giyanti pada tahun 1755 mengakibatkan", listOf("Kerajaan Mataram Islam mencapai puncak kejayaan", "Pembagian Kerajaan Mataram menjadi Yogyakarta dan Surakarta", "Kerajaan Mataram berhasil menguasai wilayah Batavia", "Penyatuan kerajaan-kerajaan di Jawa"), 1),
+                    Question("Kerajaan Mataram Islam Didirikan oleh", listOf("Sultan Trenggana", "Panembahan Senapati", "Ki Ageng Selo", "Sultan Hadiwijaya"), 1),
+                )
+            ),
         )
 
         // Mengatur RecyclerView
