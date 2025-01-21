@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         val quizzes = listOf(
             Quiz(
                 name = "Kuis Pengetahuan Sriwijaya",
-                description = "Berisi soal soal mengenai sejarah kerajaan sriwijaya",
+                description = "Berisi soal mengenai sejarah kerajaan sriwijaya",
                 questions = listOf(
                     Question("apa itu kerajaan sriwijaya ?", listOf("pemerintahan", "pedesaan", "Kedatuan histori dari sumatra", "klub bola"), 2),
                     Question("kerajaan sriwijaya merupakan kerajaan terbesar dalam bidang?", listOf("maritim", "pertanian", "armada perang", "luas wilayah"), 0),
@@ -33,7 +33,7 @@ class MainActivity : AppCompatActivity() {
             ),
             Quiz(
                 name = "Kuis Pengetahuan Majapahit",
-                description = "Berisi soal soal mengenai sejarah Kerajaan majapahit",
+                description = "Berisi soal mengenai sejarah Kerajaan majapahit",
                 questions = listOf(
                     Question("Siapakah raja pertama Kerajaan Majapahit?", listOf("Hayam Wuruk", "Raden Wijaya", "Gajah Mada", "Tribhuwana Tunggadewi"), 1),
                     Question("Sumpah Palapa, yang terkenal dalam sejarah Majapahit, diucapkan oleh?", listOf("Gajah Mada", "Hayam Wuruk", "Adityawarman", "Kertanegara"), 0),
@@ -44,7 +44,7 @@ class MainActivity : AppCompatActivity() {
             ),
             Quiz(
                 name = "Kuis Pengetahuan Aceh",
-                description = "Berisi soal soal mengenai sejarah kerajaan aceh",
+                description = "Berisi soal mengenai sejarah kerajaan aceh",
                 questions = listOf(
                     Question("Siapakah sultan pertama Kerajaan Aceh yang membawa kerajaan ini menjadi kekuatan besar di Asia Tenggara?", listOf("Sultan Iskandar Muda", "Sultan Ali Mughayat Syah", "Sultan Iskandar Thani", "Sultan Alauddin Riayat Syah"), 1),
                     Question("Pada masa pemerintahan siapa Kerajaan Aceh mencapai puncak kejayaannya?", listOf("Sultan Iskandar Thani", "Sultan Alauddin Riayat Syah", "Sultan Iskandar Muda", "Sultan Zainal Abidin"), 2),
@@ -55,7 +55,7 @@ class MainActivity : AppCompatActivity() {
             ),
             Quiz(
                 name = "Kuis Pengetahuan Mataram Islam",
-                description = "Berisi soal soal mengenai sejarah kerajaan mataram islam",
+                description = "Berisi soal mengenai sejarah kerajaan mataram islam",
                 questions = listOf(
                     Question("Kerajaan Mataram Islam mencapai puncak kejayaan pada masa pemerintahan raja", listOf("Sultan Agung", "Panembahan Senapati", "Amangkurat I", "Raden Patah"), 0),
                     Question("Kerajaan Mataram Islam berpusat di daerah", listOf("Banten", "Surakarta", "Yogyakarta", "Kotagede"), 3),
